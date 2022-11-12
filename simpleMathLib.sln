@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.1927
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "simpleMathLib", "simpleMathLib\simpleMathLib.vcxproj", "{023D387F-8161-41C0-9532-F6D6B1C574FF}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mathDllReader", "..\mathDllReader\mathDllReader\mathDllReader.vcxproj", "{6EEDAE42-A7AE-42E2-A438-242292EBFBD5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,11 +23,19 @@ Global
 		{023D387F-8161-41C0-9532-F6D6B1C574FF}.Release|x64.Build.0 = Release|x64
 		{023D387F-8161-41C0-9532-F6D6B1C574FF}.Release|x86.ActiveCfg = Release|Win32
 		{023D387F-8161-41C0-9532-F6D6B1C574FF}.Release|x86.Build.0 = Release|Win32
+		{6EEDAE42-A7AE-42E2-A438-242292EBFBD5}.Debug|x64.ActiveCfg = Debug|x64
+		{6EEDAE42-A7AE-42E2-A438-242292EBFBD5}.Debug|x64.Build.0 = Debug|x64
+		{6EEDAE42-A7AE-42E2-A438-242292EBFBD5}.Debug|x86.ActiveCfg = Debug|Win32
+		{6EEDAE42-A7AE-42E2-A438-242292EBFBD5}.Debug|x86.Build.0 = Debug|Win32
+		{6EEDAE42-A7AE-42E2-A438-242292EBFBD5}.Release|x64.ActiveCfg = Release|x64
+		{6EEDAE42-A7AE-42E2-A438-242292EBFBD5}.Release|x64.Build.0 = Release|x64
+		{6EEDAE42-A7AE-42E2-A438-242292EBFBD5}.Release|x86.ActiveCfg = Release|Win32
+		{6EEDAE42-A7AE-42E2-A438-242292EBFBD5}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {32B566CB-E07F-4184-BA41-F5BEF1E249D3}
+		SolutionGuid = {26423B25-4697-4E03-8940-D17D2B8FD9AE}
 	EndGlobalSection
 EndGlobal
